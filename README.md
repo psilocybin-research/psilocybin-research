@@ -7,7 +7,7 @@
 <h1 align="center">Psilocybin Research</h1>
 
 <p align="center">
-  Open tools for tracking, exploring, citing, and monitoring psilocybin and psilocin research literature.
+  Public tools and datasets for working with psilocybin and psilocin research metadata.
 </p>
 
 <p align="center">
@@ -20,20 +20,33 @@
   <a href="https://psilocybin-research.com/data-protection.php">Data Protection</a>
 </p>
 
+The project maintains open infrastructure for finding, filtering, exporting, and monitoring records from the psilocybin and psilocin literature, including journal articles, preprints, protocols, reviews, and clinical-trial registrations.
+
 ## Featured Project
 
 ### [Psilocybin Research Tracker](https://github.com/psilocybin-research/psilocybin-research-tracker)
 
-A self-contained PHP + SQLite application for psilocybin and psilocin literature, with search, advanced filters, source/status badges, citation exports, analytics, citation-network exploration, alerts, PWA support, and Android packaging.
+The Psilocybin Research Tracker is a PHP and SQLite application for maintaining a structured, source-preserving index of psilocybin and psilocin research records.
 
-## Principles
+It provides:
 
-- Preserve scientific context: peer-reviewed records, preprints, protocols, reviews, and clinical trials should remain clearly distinguishable.
-- Keep research data portable through exports, a public API, widgets, and SQLite download workflows.
-- Keep the frontend self-contained with local assets and no CDN JavaScript, CSS, or fonts.
-- Protect runtime secrets, alert data, push subscriptions, and deployment credentials.
+- searchable bibliographic and registry metadata;
+- source and publication-status labels for distinguishing articles, preprints, protocols, reviews, and trial records;
+- citation exports in CSV, JSON, BibTeX, RIS, LaTeX, and SQLite formats;
+- a public API and embeddable widgets;
+- update monitoring, alerts, and offline-capable web access.
+
+The tracker is designed as research infrastructure rather than a medical information service. It indexes public metadata and does not provide medical advice, treatment recommendations, or legal guidance.
+
+## Project Principles
+
+- Preserve source context instead of flattening all records into a single undifferentiated feed.
+- Keep public research metadata portable through machine-readable exports and a documented API.
+- Separate public dataset exports from runtime data, credentials, subscriptions, logs, and administrative state.
+- Avoid external frontend dependencies for the public application shell.
 
 ## Maintainer
 
 Christopher B. Germann  
-`christopher-germann@uni-wh.de`
+Witten/Herdecke University  
+christopher-germann@uni-wh.de
