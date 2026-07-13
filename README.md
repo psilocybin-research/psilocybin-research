@@ -43,7 +43,6 @@ The tracker is designed as research infrastructure rather than a medical informa
 - Preserve source context instead of flattening all records into a single undifferentiated feed.
 - Keep public research metadata portable through machine-readable exports and a documented API.
 - Separate public dataset exports from runtime data, credentials, subscriptions, logs, and administrative state.
-- Avoid external frontend dependencies for the public application shell.
 
 ## Maintainer
 
