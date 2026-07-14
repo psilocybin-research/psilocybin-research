@@ -37,19 +37,25 @@ Built with PHP and SQLite, the tracker provides a structured index of publicly a
 * Export citations and datasets as CSV, JSON, BibTeX, RIS, LaTeX, and SQLite
 * Access data through a public API
 * Embed search widgets in external websites
-* Receive update notifications
-* Install as an offline-capable Progressive Web App (PWA)
+* Receive scheduled updates by email or push notification
+* Install as a Progressive Web App (PWA)
 
 ## Data and Scope
 
 The tracker indexes publicly available bibliographic and registry metadata and is intended as a research and reference tool.
 
-It does **not** provide medical advice, treatment recommendations, or legal guidance.
+**It does not provide medical advice, treatment recommendations, or legal guidance.**
 
 Public research datasets are maintained separately from application data such as user accounts, subscriptions, logs, and administrative information.
 
+
+## Dataset
+
+Versioned releases of the public research dataset are archived on Zenodo and can be cited using the dataset DOI.
+
+**DOI:** <https://doi.org/10.5281/zenodo.21293526>
+
 ## Maintainer
 
-Christopher B. Germann
-Witten/Herdecke University
-[christopher-germann@uni-wh.de](mailto:christopher-germann@uni-wh.de)
+Christopher B. Germann<br>
+Witten/Herdecke University<br> <a href="mailto:christopher-germann@uni-wh.de">[christopher-germann@uni-wh.de](mailto:christopher-germann@uni-wh.de)</a>
