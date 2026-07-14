@@ -1,4 +1,3 @@
-```markdown
 <p align="center">
   <a href="https://psilocybin-research.com/">
     <img src="https://raw.githubusercontent.com/psilocybin-research/psilocybin-research-tracker/main/assets/pwa/icon-192.png" alt="Psilocybin Research logo" width="112" height="112">
@@ -33,13 +32,13 @@ Built with PHP and SQLite, the tracker provides a structured index of publicly a
 
 ### Features
 
-- Search and filter research records
-- Distinguish journal articles, preprints, study protocols, reviews, and clinical trial registrations
-- Export citations and datasets as CSV, JSON, BibTeX, RIS, LaTeX, and SQLite
-- Access data through a public API
-- Embed search widgets in external websites
-- Receive update notifications
-- Install as an offline-capable Progressive Web App (PWA)
+* Search and filter research records
+* Distinguish journal articles, preprints, study protocols, reviews, and clinical trial registrations
+* Export citations and datasets as CSV, JSON, BibTeX, RIS, LaTeX, and SQLite
+* Access data through a public API
+* Embed search widgets in external websites
+* Receive update notifications
+* Install as an offline-capable Progressive Web App (PWA)
 
 ## Data and Scope
 
@@ -51,7 +50,6 @@ Public research datasets are maintained separately from application data such as
 
 ## Maintainer
 
-Dr. Christopher B. Germann  
-Witten/Herdecke University  
-christopher-germann@uni-wh.de
-```
+Christopher B. Germann
+Witten/Herdecke University
+[christopher-germann@uni-wh.de](mailto:christopher-germann@uni-wh.de)
