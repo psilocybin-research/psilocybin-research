@@ -1,3 +1,4 @@
+```markdown
 <p align="center">
   <a href="https://psilocybin-research.com/">
     <img src="https://raw.githubusercontent.com/psilocybin-research/psilocybin-research-tracker/main/assets/pwa/icon-192.png" alt="Psilocybin Research logo" width="112" height="112">
@@ -7,11 +8,11 @@
 <h1 align="center">Psilocybin Research</h1>
 
 <p align="center">
-  Public tools and datasets for working with psilocybin and psilocin research metadata.
+  Public tools and datasets for psilocybin and psilocin research.
 </p>
 
 <p align="center">
-  <a href="https://psilocybin-research.com/">Live Research Tracker</a>
+  <a href="https://psilocybin-research.com/">Research Tracker</a>
   ·
   <a href="https://github.com/psilocybin-research/psilocybin-research-tracker">Source Code</a>
   ·
@@ -20,32 +21,37 @@
   <a href="https://psilocybin-research.com/data-protection.php">Data Protection</a>
 </p>
 
-The project maintains open infrastructure for finding, filtering, exporting, and monitoring records from the psilocybin and psilocin literature, including journal articles, preprints, protocols, reviews, and clinical-trial registrations.
+---
 
-## Featured Project
+This project develops open-source tools and publishes datasets for exploring the scientific literature on psilocybin and psilocin.
 
-### [Psilocybin Research Tracker](https://github.com/psilocybin-research/psilocybin-research-tracker)
+Its primary project is the **Psilocybin Research Tracker**, a searchable database of journal articles, preprints, study protocols, reviews, and clinical trial registrations.
 
-The Psilocybin Research Tracker is a PHP and SQLite application for maintaining a structured, source-preserving index of psilocybin and psilocin research records.
+## [Psilocybin Research Tracker](https://github.com/psilocybin-research/psilocybin-research-tracker)
 
-It provides:
+Built with PHP and SQLite, the tracker provides a structured index of publicly available research metadata.
 
-- searchable bibliographic and registry metadata;
-- source and publication-status labels for distinguishing articles, preprints, protocols, reviews, and trial records;
-- citation exports in CSV, JSON, BibTeX, RIS, LaTeX, and SQLite formats;
-- a public API and embeddable widgets;
-- update monitoring, alerts, and offline-capable web access.
+### Features
 
-The tracker is designed as research infrastructure rather than a medical information service. It indexes public metadata and does not provide medical advice, treatment recommendations, or legal guidance.
+- Search and filter research records
+- Distinguish journal articles, preprints, study protocols, reviews, and clinical trial registrations
+- Export citations and datasets as CSV, JSON, BibTeX, RIS, LaTeX, and SQLite
+- Access data through a public API
+- Embed search widgets in external websites
+- Receive update notifications
+- Install as an offline-capable Progressive Web App (PWA)
 
-## Project Principles
+## Data and Scope
 
-- Preserve source context instead of flattening all records into a single undifferentiated feed.
-- Keep public research metadata portable through machine-readable exports and a documented API.
-- Separate public dataset exports from runtime data, credentials, subscriptions, logs, and administrative state.
+The tracker indexes publicly available bibliographic and registry metadata and is intended as a research and reference tool.
+
+It does **not** provide medical advice, treatment recommendations, or legal guidance.
+
+Public research datasets are maintained separately from application data such as user accounts, subscriptions, logs, and administrative information.
 
 ## Maintainer
 
-Christopher B. Germann  
+Dr. Christopher B. Germann  
 Witten/Herdecke University  
 christopher-germann@uni-wh.de
+```
